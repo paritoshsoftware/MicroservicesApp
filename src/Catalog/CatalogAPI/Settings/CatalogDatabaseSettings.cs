@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace Catalog.API.Settings
 {
+    /// <summary>
+    /// CatalogDatabaseSettings
+    /// </summary>
     public class CatalogDatabaseSettings : ICatalogDatabaseSettings
     {
         public string ConnectionString { get; set; }
